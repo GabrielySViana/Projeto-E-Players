@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&family=Tomorrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1E1C21;
+    width: 100%;
+    height: 66px;
+    top: 0px;
+    position: fixed;
+    z-index: 100;
+}
+
+.container {
+    width: 1000px;
+    /* background-color: #CD46AA; */
+    margin: 0 auto;
+}
+
+.logo {
+    align-items: center;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.nav_header {
+    /* background-color: burlywood; */
+    display: flex;
+    width: 590px;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.nav_header a {
+    color: #fff ;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* HOME PAGE */
+.fundo_inicio{
+    background-image: linear-gradient( to right,#510439 0%,#291C4E 35.42%,#5D0D79 53.13%,#165183 82.81%, #113D3F 100%); 
+    width: 100%;
+    height: 494px;   
+    background-image: url(../IMG/Fundo_pixels.png); 
+}
+
+.conteiner_inicio {
+    display: flex;
+    align-items: center;
+}
+
+.conteiner_inicio img {
+    max-width: 790px; max-height: 480px;
+    margin-top: 14px;
+}
+
+.box_resultados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 67px;
+}
+
+h1 {
+    color: #fff9f9;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.box_resultados span {
+    color: #D3FEFF;
+    font-family: 'Tomorrow', sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 7px 0;
+}
+
+.box_resultados a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FBF3F3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+
+    background-image: linear-gradient(to right, #360033 0%, #0b8793  51%, #360033  100%) ;
+    background-size: 200% auto;    
+    border-radius: 10px;
+    border-color: #113D3F;
+    box-shadow: 0 0 1px #02494d;
+    border: 9px;
+    width: 215px;
+    height: 52px;
+    margin: 27px 0;
+    transition: 0.5s;
+}
+
+/* CAMPEONATOS */
+.champs { 
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.logos_games {
+    /* background-color: turquoise;  */
+    display: flex;
+    height: 100px;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logos_games img {
+    max-height: 40px;
+}
+
+/* SOBRE */
+.sobre   { 
+    background-image: url(/IMG/fundo.png); 
+    height: 600px;
+    padding-top: 90px ;
+    /* background: linear-gradient(rgba(1, 5, 15, 0.37), (rgba(1, 5, 15, 0.37)), url(IMG/fundo.png)); */
+}
+
+.skin-box {
+    transform: skewY(-5deg);
+    background-color: black;
+    height: 400px; 
+    /* background-color: darkgreen;  */
+    display: flex;
+    align-items: center;
+}
+
+.skin img {
+    width: 655px;
+    /* margin-left: 99px; */
+    margin-top: 123px;
+    transform: skewY(5deg);
+    /* background-color: blue;   */
+}
+.box-container {
+    margin: 0 auto;
+}
+
+.box_informaçoes {
+    display: flex;
+    flex-direction: column;
+    width: 447px;
+    /* background-color: thistle; */
+    transform: skewY(5deg);  
+    margin: 0 auto;
+}
+
+.box_informaçoes h3{
+    font-family: 'Tomorrow', sans-serif;
+    background: linear-gradient(180deg, #EF86CA 9.9%, #6F6498 37.5%, #65B0EF 53.65%, #901A5C 70.83%, #D14995 82.29%, #CB5F9B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.box_informaçoes p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 440px;
+    margin: 10px 0;
+}
+
+/* JOGOS */
+.container_jogos {      
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}  
+
+.posicionamento_jogos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: crimson; */
+    height: 100px;
+}
+
+.container_jogos h3 {
+    font-family: 'Tomorrow', sans-serif;;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    width: 1px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.live {
+    display: flex;
+    width: 320px;   
+    /* background-color: tomato; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line {
+    border-right: 2px solid white;
+    height: 60px;
+}
+
+.soon {
+    display: flex;
+    width: 630px;   
+    /* background-color: yellow; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.times {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: purple; */
+    width: 490px;
+}
+
+.box_logos {
+   width: 215px;
+   display: flex;
+   justify-content: space-between;
+   /* background-color: turquoise; */
+}
+
+.box_logos span {
+    font-family: Tomorrow;
+    font-weight: bold;
+    font-size: 27px;
+    color: #FFF5F5;
+    margin-top: 10px;
+}
+
+.box_logos img{
+    max-width: 60px ;max-height: 60px ;
+}
+
+/* NOTÍCIAS  */
+.news_games {   
+    width: 100%; 
+    /* height: 810px; */
+    background: linear-gradient(180deg, #02060C 15.1%, #081221 39.06%, #291C4E 77.6%, #605685 100%);
+    display: flex;
+    justify-content: space-between;
+} 
+
+.posicionamento {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* background-color: teal;   */
+}
+
+.news {
+    /* align-items: center; */
+    /* height: 100%; */
+}
+
+.news h2 {
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: bolder;
+    color: #FFFBFB;
+    font-size: 27px;
+    font-weight: bold;
+    /* line-height: 70px;  */
+    margin-bottom: 25px;
+    margin-top: 25px;
+    /* background-color: yellowgreen; */
+}
+
+.container_cards {
+    display: flex;
+    width: 650px;    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: thistle;   */ 
+}
+
+/* ESTILIZAÇÃO NOTÍCIAS*/
+.box_news {
+    background: linear-gradient(0deg, #000000 35.6%, rgba(30, 27, 27, 0.883168) 66.19%, rgba(69, 61, 61, 0.362232) 80.73%, rgba(255, 234, 234, 0.25) 94.27%);
+    width: 100%;
+    height: 170px; 
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source:  linear-gradient(180deg, #053F41 0%, rgba(19, 9, 86, 0.78) 49.48%, rgba(8, 119, 123, 0.74) 100%);
+
+}
+
+.box_news h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #FFF7F7;
+    text-decoration: 5px solid #1F2848;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+.box_news p {
+    font-family: 'Roboto', sans-serif;
+    padding: 9px;
+    text-align: justify;
+    color: #fff;
+    font-size: 14px;
+}
+
+article img {
+    width: 100%;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source:  linear-gradient(180deg, #053F41 0%, rgba(19, 9, 86, 0.78) 49.48%, rgba(8, 119, 123, 0.74) 100%);
+
+}
+
+article {
+    margin-bottom: 45px;
+    width: 190px;
+    height: 295px;
+}
+
+/* PRÓXIMOS JOGOS */
+.hours_games {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.97) 30.21%, rgba(8, 18, 33, 0.85) 66.15%, #113D3F 85.94%, rgba(8, 18, 33, 0.96) 100%);
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source:  linear-gradient(180deg, #053F41 0%, rgba(19, 9, 86, 0.78) 49.48%, rgba(8, 119, 123, 0.74) 100%);
+
+    width: 250px;
+    height: 645px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.next_games h2 {
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: bolder;
+    color: #FFFBFB;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+.container_games {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.component_games {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    /* background-color: tomato; */
+}
+
+.component_games span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid;
+    border-image: linear-gradient(to right, 180deg, #02060C 15.1%, #081221 39.06%, #291C4E 77.6%, #605685 100%);    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFFBFB;
+    padding: 0 7px;
+    height: 33px;
+}
+
+.fight {
+    display: flex;
+    color: white;
+    width: 200px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    /* background-color: deeppink; */
+}
+
+.fight span {
+    color: #FFFBFB;
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+}
+
+.fight img {
+    max-width: 44px ;max-height: 44px ;
+}
+
+/* FOOTER */
+footer {   
+    background-color: #070707;
+    width: 100%;
+    height: 210px;
+} 
+
+.posicionamento_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    /* background-color: gold; */
+}
+
+.container_footer {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: greenyellow; */
+}
+
+/* LISTA LINKS */
+.nav_links span {
+   font-family: 'Tomorrow', sans-serif;
+   color: #fff;
+   font-weight: bold;
+   font-size: 15px;
+   line-height: 28px;
+}
+
+.container_list {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_links {
+    display: inline-block;
+    flex-direction: column;
+}
+
+ul a {
+    text-decoration: none; ;
+    color: #FFFAFA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+li {
+    color: #FFFAFA;
+    list-style-type: none;
+}
+
+/* LOGO */
+.logo1 {
+    align-items: center;
+}
+
+/* E-MAIL */
+.container_media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: teal; */
+    height: 100%;
+
+}
+.assinar span {
+    line-height: 35px;
+    font-family:  'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #E7DAE6;
+}
+
+.container_email input {
+    background: #FFF5F5;
+    border-radius: 15px;
+    width: 200px;
+    height: 37px;
+    border: solid 1px;
+    border: #e5e5e5;
+    font-size: 18px;
+    padding-left:12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container_email button {
+    background: #4D073B;
+    border-radius: 15px;
+    width: 125px;
+    height: 37px;
+    border: none;
+}
+
+.container_email a {
+    font-family: 'Tomorrow', sans-serif;
+    text-decoration: none;
+    color: #FFFAFA;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.redes_sociais img{
+    height: 40px;
+    /* background-color: salmon; */
+    margin: 5px;
+
+}
+
+.redes_sociais nav {
+    /* background-color: seagreen; */
+    display: flex;
+    justify-content: flex-end;
+
+}
