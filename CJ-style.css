@@ -1,204 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&family=Tomorrow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header {
-    background-color: #1E1C21;
-    width: 100%;
-    height: 66px;
-    top: 0px;
-    position: fixed;
-    z-index: 100;
-}
-
-.container {
-    width: 1000px;
-    /* background-color: #CD46AA; */
-    margin: 0 auto;
-}
-
-.logo {
-    align-items: center;
-    /* background-color: cadetblue; */
-    display: flex;
-    justify-content: flex-start;
-}
-
-.container_header {
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-}
-
-.nav_header {
-    /* background-color: burlywood; */
-    display: flex;
-    width: 590px;
-    align-items: center;
-    justify-content: space-between;
-    height: 100%;
-}
-
-.nav_header a {
-    color: #fff ;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-/* CADASTRO JOGADOR BANNER  */
-main {
-    margin-top: 0;
-}
 .cadastro-jogador  {
-    background-image: url(/IMG/fundo-cj.png) ;
-    height: 250px;
-}
-
-h1 {
-    font-family: 'Tomorrow', sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-    color: #FFFFFF;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-
-/* USUÁRIO */
-.informaçoes-jogador {
-    background: linear-gradient(180deg, #02060C 15.1%, #081221 39.06%, #291C4E 77.6%, #605685 100%);    
-    height: 1110px;
-
+    background-image: url(IMG/fundo-CT.png) ;
 }
 
 /* INFORMAÇÕES USUÁRIO */
-.continer_input_button {
-    width: 770px;
-    height: 600px;
-    background: linear-gradient(180deg, #510439 0%, #291C4E 46.35%, #113D3F 100%);    
-    border: 1px solid rgba(41, 28, 78, 0.65);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 3px;
+.informaçoes-equipe_jogador {
+    height: 1110px;
 }
 
-.component_input_button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-content: space-between;
-    align-items: center;
-    background-color: darkred;
-    width: 600px;
-    height: 500px;
+.cadastro {
+    height: 590px;
 }
 
-.info_user {
-    display: flex;
-    flex-direction: column;
-    background-color: darkviolet;
-    justify-content: space-between;
-    height: 250px;
+.select_equipe select {
+    color: #fff;
 }
 
-.infos {
-    display: flex;
-    flex-direction: column;
-    /* background-color: dodgerblue; */
+.input_select {
+    height: 360px;
+    color:  #480048  ;
 }
 
-.info_user input {
-    width: 575px;
-    height: 35px;
-    background: linear-gradient(90deg, #02060C 13.17%, #081221 36.79%, #291C4E 74.77%, #605685 96.84%);    background-size: 200% auto;    
-    border-color: #113D3F;
-    box-shadow: 0 0 1px #02494d;
-    border: 9px;
-    border-radius: 10px;
+.posicionamento_cadastro {
+    height: 999px;
 }
 
-.info_user span {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 26px;
-    color: #FFFFFF;
+ .style-input_select {
+    width: 575px; 
 }
 
-.btn_cadastrar {
-    display: flex;
-    flex-direction: column;
-}
+select option {
 
-.btn_cadastrar a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #FBF3F3;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    text-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
 }
 
 .btn_cadastrar button{
-    background-image: linear-gradient(to right, #360033 0%, #0b8793  51%, #360033  100%) ;
-    background-size: 200% auto;    
-    border-radius: 10px;
-    border-color: #113D3F;
-    box-shadow: 0 0 1px #02494d;
-    border: 9px;
-    width: 215px;
-    height: 52px;
-    margin: 27px 0;
-    transition: 0.5s;
-}
-
-
-/* LISTA-JOGADORES */
-.lista-jogadores h2{
-    font-family: 'Tomorrow', sans-serif;
-    font-weight: bolder;
-    color: #FFFBFB;
-    font-size: 26px;
-    font-weight: bold;
-    line-height: 70px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.component-lj {
-    color: #fff;
-    width: 770px;
-    height: 180px;
-    background: transparent;
-    border: 3px solid #113D3F;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 3px;
-}
-
-.nome_equipe {
-    background: black;
-    display: flex;
-}
-
-.players-team {
-    font-family: 'Titillium Web', sans-serif;
-}
-
-.time h4{
-    text-transform: uppercase;
+    background-image: linear-gradient(to right, #C04848 0%, #480048  51%, #C04848  100%)
 }
 

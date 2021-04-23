@@ -54,8 +54,11 @@ header {
 }
 
 /* HOME PAGE */
+main {
+    margin-top: 66px;
+}
+
 .fundo_inicio{
-    background-image: linear-gradient( to right,#510439 0%,#291C4E 35.42%,#5D0D79 53.13%,#165183 82.81%, #113D3F 100%); 
     width: 100%;
     height: 494px;   
     background-image: url(../IMG/Fundo_pixels.png); 
@@ -67,15 +70,14 @@ header {
 }
 
 .conteiner_inicio img {
-    max-width: 790px; max-height: 480px;
-    margin-top: 14px;
+    max-width: 790px; max-height: 494px;
 }
 
 .box_resultados {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 67px;
+    margin-left: 48px;
 }
 
 h1 {
@@ -102,22 +104,35 @@ h1 {
     text-transform: uppercase;
     color: #FBF3F3;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     text-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+}
 
-    background-image: linear-gradient(to right, #360033 0%, #0b8793  51%, #360033  100%) ;
+.box_resultados button {
     background-size: 200% auto;    
     border-radius: 10px;
     border-color: #113D3F;
     box-shadow: 0 0 1px #02494d;
     border: 9px;
-    width: 215px;
-    height: 52px;
+    width: 217px;
+    height: 60px;
     margin: 27px 0;
     transition: 0.5s;
 }
 
+.button-CJ {
+    background-image: linear-gradient(to right, #C04848 0%, #480048  51%, #C04848  100%)
+}
+
+.button-CT {
+    background-image: linear-gradient(to right, #5C258D 0%, #4389A2  51%, #5C258D  100%)
+}
+     
+button:hover 
+button:focus  {
+  transform: scale(1.05);
+}
 /* CAMPEONATOS */
 .champs { 
     background-color: black;
@@ -283,11 +298,6 @@ h1 {
     /* background-color: teal;   */
 }
 
-.news {
-    /* align-items: center; */
-    /* height: 100%; */
-}
-
 .news h2 {
     font-family: 'Tomorrow', sans-serif;
     font-weight: bolder;
@@ -352,6 +362,7 @@ article {
     margin-bottom: 45px;
     width: 190px;
     height: 295px;
+    box-shadow: 10px 12px 11px rgba(0, 0, 0, 0.863);
 }
 
 /* PRÓXIMOS JOGOS */
@@ -360,6 +371,7 @@ article {
     border: 3px solid;
     border-image-slice: 1;
     border-image-source:  linear-gradient(180deg, #053F41 0%, rgba(19, 9, 86, 0.78) 49.48%, rgba(8, 119, 123, 0.74) 100%);
+    box-shadow: 10px 12px 11px rgba(8, 8, 8, 0.274);
 
     width: 250px;
     height: 645px;
@@ -464,7 +476,7 @@ footer {
    color: #fff;
    font-weight: bold;
    font-size: 15px;
-   line-height: 28px;
+   line-height: 34px;
 }
 
 .container_list {
@@ -483,7 +495,7 @@ ul a {
     color: #FFFAFA;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 23px;
 }
 
 li {
@@ -509,7 +521,7 @@ li {
     line-height: 35px;
     font-family:  'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
     color: #E7DAE6;
 }
 
@@ -543,9 +555,9 @@ li {
 }
 
 .redes_sociais img{
-    height: 40px;
+    height: 39px;
     /* background-color: salmon; */
-    margin: 5px;
+    margin: 6px;
 
 }
 
@@ -553,5 +565,4 @@ li {
     /* background-color: seagreen; */
     display: flex;
     justify-content: flex-end;
-
 }

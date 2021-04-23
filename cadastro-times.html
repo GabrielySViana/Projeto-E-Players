@@ -3,7 +3,9 @@
 
 <head>
     <title>Cadastro de Times</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="CT-style.css">
+    <link rel="stylesheet" href="iframe_CT-CJ.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,29 +13,69 @@
 
 <body>
     <header>
-        <div class="container container_header">
-            <div class="logo">
-                <img src="IMG/logo.svg" alt="e-players">
-            </div>
-            <nav class="nav_header">
-                <a href="">início</a>
-                <a href="">horários</a>
-                <a href="">campeonatos</a>
-                <a href="-">resultados</a>
-                <a href="">notícias</a>
-            </nav>
-        </div>
+        <iframe src="iframe_header.html" width="100%" height="100%" frameborder="0"></iframe>
     </header>
 
     <main>
         <section class="cadastro-jogador">
-            <h1>Cadastro de Jogador</h1>
+            <h1>Cadastro de Times</h1>
         </section>
 
+        <div class="informaçoes-equipe_jogador">
+            <div class="posicionamento_cadastro">
+                <section class="cadastro container">
+                    <div class="container_input_select_button">
+                        <div class="input_select">
+                            <div class="info_user">
+                                <form class="input_select_info-user">
+                                    <label>Nome da Equipe</label>
+                                    <input class="style-input_select" style="width: 575px;" type="text">
+                                </form>
+                            </div>
+                            <div class="input_emblema input_select_info-user">
+                                <span>Emblema</span>
+                                <input type="file" id="file" class="file">
+                                <label class="style-input_select" for="file">
+                                    Escolher Imagem
+                                </label>
+                            </div>
+                        </div>
+                        <div class="btn_cadastrar">
+                            <button><a href="">cadastrar</a></button>
+                        </div>
+                    </div>
+                </section>
+    
+                <section class="lista-jogadores">
+                    <h2>Lista de Times</h2>
+                    <section class="container-CJ container">
+                        <table>
+                            <tr>
+                                <th>Nome da equipe</th>
+                                <th>Emblema</th>
+                            </tr>
+                            <div>
+                                <tr class="players-team">
+                                    <td><span style="text-transform: uppercase;">senai</span> Cytechs</td>
+                                    <td><img src="IMG/games-league-of-legends-cursor-pack 1.png" alt=""></td>
+                                </tr>
+                                <tr class="players-team">
+                                    <td>Legends</td>
+                                    <td><img src="IMG/games-league-of-legends-cursor-pack 1.png" alt=""></td>
+                                </tr>
+                            </div>
+                        </table>
+                    </section>
+                </section>
+
+            </div>
+        </div>
     </main>
 
-    <footer>
 
+
+    <footer>
+        <iframe src="iframe_footer.html" width="100%" height="100%" frameborder="0"></iframe>
     </footer>
 </body>
 </html>

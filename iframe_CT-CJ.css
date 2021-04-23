@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&family=Tomorrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/* CADASTRO JOGADOR-TIME BANNER  */
+main {
+    margin-top: 66px;
+}
+
+.cadastro-jogador  {
+    height: 266px;
+}
+
+h1 {
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    text-transform: initial;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* width: 400px;
+    background-color: slategrey; */
+}
+
+/* USUÁRIO */
+.informaçoes-equipe_jogador {
+    /* background: linear-gradient(180deg, #02060C 15.1%, #081221 39.06%, #291C4E 77.6%, #605685 100%);     */
+    background-image: url(/IMG/pixel-CT-CJ.png);
+}
+
+/* INFORMAÇÕES USUÁRIO */
+.cadastro {
+    width: 750px;
+    background: linear-gradient(180deg, #510439 0%, #291C4E 46.35%, #113D3F 100%);    
+    border: 1px solid rgba(41, 28, 78, 0.65);
+    box-shadow: 1px 1px 20px 4px #000000;    border-radius: 3px;
+    transition: 0.5s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.posicionamento_cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: blue; */
+    /* height: 999px; */
+}
+
+.container_input_select_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: darkred; */
+}
+
+.input_select {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FFFFFF;
+    transition: 0.5s;
+    /* background-color: yellow; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.style-input_select {
+    height: 35px;
+    background: linear-gradient(90deg, #02060C 13.17%, #081221 36.79%, #291C4E 74.77%, #605685 96.84%);    background-size: 200% auto;    
+    border-color: #113D3F;
+    box-shadow: 0 0 1px #02494d;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.info_user {
+    display: flex;
+    flex-direction: column;
+    /* background-color: darkviolet; */
+    justify-content: space-between;
+    height: 235px;
+    width: 100%;
+}
+
+.input_select_info-user {
+    display: flex;
+    flex-direction: column;
+    
+    /* background-color: dodgerblue; */
+}
+
+.btn_cadastrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+    transition: 0.5s;
+
+
+}
+
+.btn_cadastrar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FBF3F3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+}
+
+.btn_cadastrar button{
+    background-size: 200% auto;    
+    border-radius: 10px;
+    border-color: #113D3F;
+    box-shadow: 0 0 1px #02494d;
+    border: 9px;
+    width: 215px;
+    height: 52px;
+    margin: 27px 0;
+    transition: 0.5s;
+}
+
+
+
+/* LISTA-JOGADORES-TIMES */
+.lista-jogadores h2{
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: bolder;
+    color: #FFFBFB;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-CJ {
+    color: #fff;
+    height: 150px;
+    width: 700px;
+    background: transparent;
+    border: 3px solid white;
+    /* border-image-slice: 1;
+    border-image-source:  linear-gradient(180deg, #053F41 0%, rgba(19, 9, 86, 0.78) 49.48%, rgba(8, 119, 123, 0.74) 100%); */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+
+table {
+    border-spacing: 0;
+}
+
+tr {
+    display: flex;
+    align-items: center;
+}
+
+th {
+    border: 1px solid white;
+    height: 50px;
+    background: black;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td {
+    /* background-color: seagreen; */
+    font-family: 'Titillium Web', sans-serif;
+    height: 47px;
+    width: 347px;
+    text-align: center;
+}

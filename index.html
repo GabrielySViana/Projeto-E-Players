@@ -11,18 +11,7 @@
 
 <body>
     <header>
-        <div class="container container_header">
-            <div class="logo">
-                <img src="IMG/logo.svg" alt="e-players">
-            </div>
-            <nav class="nav_header">
-                <a href="#inicio">início</a>
-                <a href="#hours">horários</a>
-                <a href="#champs">campeonatos</a>
-                <a href="#sign-up">resultados</a>
-                <a href="#news">notícias</a>
-            </nav>
-        </div>
+        <iframe src="iframe_header.html" width="100%" height="100%" frameborder="0"></iframe>
     </header>
 
     <main>
@@ -32,7 +21,8 @@
                 <div id="sign-up" class="box_resultados">
                     <h1>liga e-players</h1>
                     <span>O maior portal de campeonatos online</span>
-                    <a href="#">inscreva-se</a>
+                   <button class="button-CJ"><a href="http://127.0.0.1:5500/cadastro-jogador.html">Cadastro de Jogador</a></button>
+                   <button class="button-CT"><a href="http://127.0.0.1:5500/cadastro-times.html">Cadastro de Times</a></button>
                 </div>
             </div>
         </section>
@@ -103,9 +93,9 @@
             </section>
         </section>
 
-        <div class="news_games">
+        <div id="news-next_games" class="news_games">
             <div class="container posicionamento">
-                <section id="#news" class="news">
+                <section class="news">
                     <h2>Notícias</h2>
                     <div class="container_cards">
                         <article>
@@ -183,7 +173,7 @@
                     </div>
                 </section>
 
-                <section id="hours" class="next_games">
+                <section class="next_games">
                     <h2>Próximos jogos</h2>
                     <section class="container_games">
                         <section class="hours_games ">
@@ -244,52 +234,7 @@
 
     </main>
     <footer>
-        <div class="container posicionamento_footer">
-            <section class="container_footer">
-                <div class="container_list">
-                    <nav class="nav_links">
-                        <span>Links Úteis</span>
-                        <ul>
-                            <li><a href="#">Regras de utilização</a></li>
-                            <li><a href="#">Suporte</a></li>
-                            <li><a href="#">Central de ajuda</a></li>
-                            <li><a href="#">Contato</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="nav_links">
-                        <span>Páginas</span>
-                        <ul>
-                            <li><a href="#">Início</a></li>
-                            <li><a href="#">Início</a></li>
-                            <li><a href="#">Campeonatos</a></li>
-                            <li><a href="#">Resultados</a></li>
-                            <li><a href="#">Notícias</a></li>
-                            <li><a href="#">Login/Cadrasto</a></li>
-                        </ul>
-                    </nav>
-                </div>
-
-                <a href="#"><img class="logo1" src="IMG/logo 1.png" alt="e-players"></a>
-
-                <div class="container_media">
-                    <div class="assinar">
-                        <span>Faça parte do nosso clan, assine nossa newsletter!</span>
-                        <div class="container_email">
-                            <input type="text" placeholder="E-mail">
-                            <button><a href="#">Assinar</a></button>
-                        </div>
-                    </div>
-
-                    <nav class="redes_sociais">
-                        <nav>
-                            <a href="#"><img src="IMG/instagram 1.png" alt="Instagram E-Players"></a>
-                            <a href="#"><img src="IMG/facebook 1.png" alt="Facebook E-Players"></a>
-                            <a href="#"><img src="IMG/youtube-logo-icon-transparent-32 1.png" alt="Youtube E-Players"></a>
-                        </nav>
-                    </nav>
-                </div>
-            </section>
-        </div>
+        <iframe src="iframe_footer.html" width="100%" height="100%" frameborder="0"></iframe>
     </footer>
 </body>
 
