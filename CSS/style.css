@@ -155,7 +155,7 @@ button:focus  {
 
 /* SOBRE */
 .sobre   { 
-    background-image: url(/IMG/fundo.png); 
+    background-image: url(../IMG/fundo.png); 
     height: 600px;
     padding-top: 90px ;
     /* background: linear-gradient(rgba(1, 5, 15, 0.37), (rgba(1, 5, 15, 0.37)), url(IMG/fundo.png)); */

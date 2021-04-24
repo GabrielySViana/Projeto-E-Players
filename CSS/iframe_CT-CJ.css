@@ -110,6 +110,19 @@ h1 {
     /* background-color: dodgerblue; */
 }
 
+.cadiadinho {
+    position: relative;
+
+}
+
+.icone {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    
+
+}
+
 .btn_cadastrar {
     display: flex;
     flex-direction: column;
@@ -180,7 +193,7 @@ tr {
 }
 
 th {
-    border: 1px solid white;
+    border-bottom: 1px solid white;
     height: 50px;
     background: black;
     font-family: 'Roboto', sans-serif;
@@ -195,5 +208,7 @@ td {
     font-family: 'Titillium Web', sans-serif;
     height: 47px;
     width: 347px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

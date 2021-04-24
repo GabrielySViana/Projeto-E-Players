@@ -1,5 +1,5 @@
 .cadastro-jogador  {
-    background-image: url(IMG/fundo-CT.png) ;
+    background-image: url(../IMG/fundo-CT.png) ;
 }
 
 /* INFORMAÇÕES USUÁRIO */
@@ -26,10 +26,6 @@
 
  .style-input_select {
     width: 575px; 
-}
-
-select option {
-
 }
 
 .btn_cadastrar button{
