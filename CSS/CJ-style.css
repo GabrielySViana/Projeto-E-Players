@@ -13,6 +13,12 @@
 
 .select_equipe select {
     color: #fff;
+    background: rgba(22, 2, 65, 0.6);     
+    border-radius: 5px;
+}
+
+.info_user {
+    height: 235px;
 }
 
 .input_select {
@@ -24,8 +30,12 @@
     height: 999px;
 }
 
- .style-input_select {
+.style-input_select {
     width: 575px; 
+}
+
+.style-input_select option {
+    text-transform: capitalize;
 }
 
 .btn_cadastrar button{

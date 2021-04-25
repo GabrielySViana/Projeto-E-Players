@@ -35,8 +35,7 @@ h1 {
 
 /* USUÁRIO */
 .informaçoes-equipe_jogador {
-    /* background: linear-gradient(180deg, #02060C 15.1%, #081221 39.06%, #291C4E 77.6%, #605685 100%);     */
-    background-image: url(/IMG/pixel-CT-CJ.png);
+    background-image: url(../IMG/pixel-CT-CJ.png);
 }
 
 /* INFORMAÇÕES USUÁRIO */
@@ -89,7 +88,7 @@ h1 {
     border-color: #113D3F;
     box-shadow: 0 0 1px #02494d;
     border: 1px solid rgba(0, 0, 0, 0.356);
-    border-radius: 10px;
+    border-radius: 15px;
     transition: 0.5s;
 
 }
@@ -99,28 +98,23 @@ h1 {
     flex-direction: column;
     /* background-color: darkviolet; */
     justify-content: space-between;
-    height: 235px;
     width: 100%;
 }
 
 .input_select_info-user {
     display: flex;
     flex-direction: column;
-    
     /* background-color: dodgerblue; */
 }
 
-.cadiadinho {
+.icon_input {
     position: relative;
-
 }
 
-.icone {
+.icon {
     position: absolute;
     right: 10px;
     top: 35px;
-    
-
 }
 
 .btn_cadastrar {
@@ -206,6 +200,7 @@ th {
 td {
     /* background-color: seagreen; */
     font-family: 'Titillium Web', sans-serif;
+    text-transform: capitalize;
     height: 47px;
     width: 347px;
     display: flex;
